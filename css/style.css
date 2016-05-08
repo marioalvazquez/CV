@@ -1,0 +1,288 @@
+/* Ui Colors
+White: ##ecf0f1;
+Blue: #2980b9;
+Night Blue: #2c3e50;
+Gray: #95a5a6
+ */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url('normalize.css');
+@import url('../fonts/icomoon/style.css');
+
+/* Principal */
+body{
+  background: #ecf0f1;
+  color: #2c3e50;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+.title{
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: #2980b9;
+  margin-top: .5rem;
+  font-size: 1.8rem;
+}
+.subtitle{
+  margin-top: .5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.subtitle-span{
+  font-weight: 400;
+  font-size: 1rem;
+}
+.text{
+    color: #2c3e50;
+    font-size: 1rem;
+  }
+div.container-brief{
+  margin: 0 1rem;
+}
+.iconbefore{
+  margin: 1.5rem 0;
+}
+.iconbefore::before{
+  font-family: icomoon;
+  content: '\e901';
+  padding: 1rem;
+  border-radius: 50%;
+  background: #2980b9;
+  color: #2c3e50;
+  font-size: 1.5rem;
+  border: .2rem solid #2c3e50;
+  transition: all .2s ease-in;
+}
+.iconbefore:hover::before{
+  background: #95a5a6;
+}
+.ilaboral{
+  margin: 1.5rem 0;
+}
+.ilaboral::before{
+  font-family: icomoon;
+  content: '\e900';
+  padding: 1rem;
+  border-radius: 50%;
+  background: #2980b9;
+  color: #2c3e50;
+  font-size: 1.5rem;
+  border: .2rem solid #2c3e50;
+  transition: all .2s ease-in;
+}
+.ilaboral:hover::before{
+  background: #95a5a6;
+}
+.igoals{
+  margin: 1.5rem 0;
+}
+.igoals::before{
+  font-family: icomoon;
+  content: '\e902';
+  padding: 1rem;
+  border-radius: 50%;
+  background: #2980b9;
+  color: #2c3e50;
+  font-size: 1.5rem;
+  border: .2rem solid #2c3e50;
+  transition: all .2s ease-in;
+}
+.igoals:hover::before{
+  background: #95a5a6;
+}
+.iportfolio{
+  margin: 1.5rem 0;
+}
+.iportfolio::before{
+  font-family: icomoon;
+  content: '\e90b';
+  padding: 1rem;
+  border-radius: 50%;
+  background: #2980b9;
+  color: #2c3e50;
+  font-size: 1.5rem;
+  border: .2rem solid #2c3e50;
+  transition: all .2s ease-in;
+}
+.iportfolio:hover::before{
+  background: #95a5a6;
+}
+
+/* End Principal */
+
+/* Header */
+header.header{
+  width: 100%;
+  height: 6rem;
+  background: #2980b9;
+  color: #ecf0f1;
+  border-bottom: .2rem solid #2c3e50;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div.header-contain{
+  margin-left: 1rem;
+}
+div.header-basic{
+}
+h4.basic-position{
+  color: #2c3e50;
+  font-size: 1rem;
+}
+h1.basic-name{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+/* End Header */
+/* Section Brief */
+div.title-container{
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+}
+span.iconline{
+  line-height: 83px;
+  margin-left: 1rem;
+  color: #2980b9;
+  cursor: pointer;
+  transition: .3s all ease-in;
+}
+span.iconline:hover{
+  color: #1C5982;
+}
+.hidden{
+  display: none;
+}
+.seen{
+  display: block;
+}
+/* End Section Brief */
+/* Section Skills */
+a.contact-link{
+  text-decoration: none;
+  color: #FBFBFB;
+}
+section.skills{
+  background: #95a5a6;
+  color: #ecf0f1;
+  padding: 1rem;
+}
+div.photo-contain{
+  border: 2px solid #ecf0f1;
+  background: url('../img/mario1.png');
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  padding: 2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: .3s all;
+}
+div.photo-contain:hover{
+  background: url('../img/profile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.contact{
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #727F80;
+}
+span.icon-contact{
+  padding: 1rem;
+  background: #2980b9;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+div.contact-info{
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 2rem 0;
+}
+div.contact-info-text{
+  margin: 0 auto;
+  font-size: small;
+}
+div.skills-subtitle{
+  display: flex;
+  flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  color: #2980b9;
+}
+span.icon-embed2{
+  margin-right: .2rem;
+  line-height: 1.4rem;
+}
+div.skill{
+  height: 2rem;
+  line-height: 2rem;
+  background: #ecf0f1;
+  color: #95a5a6;
+  text-align: center;
+  margin: .5rem 0;
+}
+div.skill-level{
+  background: #2980b9;
+  width: 0%;
+  transition: .5s all ease-in;
+  cursor: pointer;
+}
+div.skill-level:hover{
+  width: 95%;
+  color: #FBFBFB;
+}
+div.knowledge{
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: space-around;
+}
+li.knowledge-li{
+  list-style: none;
+  margin: .2rem 0;
+}
+li.knowledge-li::before{
+  font-family: icomoon;
+  content: "\e90a";
+  margin-right: .2rem;
+}
+/* End Section Skills */
+/* Footer */
+/* End Footer */
+
+
+
+/* Queries */
+@media (min-width:768px) {
+  div.container{
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+  }
+  section.brief{
+    width: 65%;
+  }
+  section.skills{
+    width: 35%;
+  }
+  div.contact-info-text{
+    font-size: 1rem;
+  }
+}
+/* End Queries */
